@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Survey form</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/WebRupee/2.0/font.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header id="title">
+  <h1 >survey Form</h1>
+   <p id="description">
+  This is a little survey for freshers, for analysing the ability of new batch.
+   </p>
+  
+</header>
+<div class="main">
+<form id="survey-form">
+<div class="Section">
+  <h2>Student Info</h2>
+     <label for="name" id="name-label">Name:</label><br>
+      <input type="text" name="name" placeholder="name" required id="name" ><br>
+     <label for="email" id="email-label">Email:</label><br>
+      <input type="email" name="email" placeholder="email"  id="email"><br>
+     <label for="number" id="number-label">Number:</label><br>
+      <input type="number" name="number" placeholder="eg.7042565656" min="1000000000" max="9999999999" required id="number" ><br>
+  </div>
+  
+  <div class="course">
+   <h2>Select your course:</h2><br>
+     <label for="dropdown" >Choose your course here:</label>
+      <select id="dropdown" name="course" >
+       <option value="B.Tech">B.Tech</option>
+       <option value="M.Tech">M.Tech</option>
+       <option value="MBA">MBA</option>
+      </select><br>
+  </div>
+   <h2>Select the stream you choose</h2><br>
+      <label>What stream do you have?:</label>
+      <div class="partition">
+       <input type="radio" name="stream" value="computer-science">Computer Science<br>
+       <input type="radio" name="stream" value="information-technology">Information Technology<br>
+       <input type="radio" name="stream" value="software">Software<br>
+       <input type="radio" name="stream" value="management">Management<br>
+      </div> 
+    
+      
+ 
+ <h2>Knowledge about programming languages</h2><br>
+   <label>Select languages you know:</label>
+    <div class="partition">
+      <input type="checkbox" name="language1" value="c">c<br>
+      <input type="checkbox" name="language2" value="c++">c++<br>
+      <input type="checkbox" name="language3" value="Javascript">Javascript<br>
+      <input type="checkbox" name="language4" value="Python">Python<br>
+      <input type="checkbox" name="language5" value="Php">Php<br>
+      <input type="checkbox" name="language6" value="java">Java<br>
+      <input type="checkbox" name="language7" value="ruby">Ruby<br>
+   </div>
+    
+   <br>
+    <h2>Leave Comment</h2>
+      <div class="commentSection">
+     <label>Give your other information:</label>
+     <textarea name="comments" rows="10" column="30" class="partition"></textarea><br>
+  
+    </div> 
+   </div>
+  </div>  
+ <footer> <button id="submit">Submit</button>
+   </footer>
+</form>
+
+
+</body>
+</html>

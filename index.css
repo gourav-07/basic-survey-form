@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+*{
+  box-sizing: border-box;
+}
+
+.main{
+  padding: 20px;
+  background-color: #f2f2f2;
+  font-style: sans-serif;
+  border-radius: 5px;
+  margin: 60px;
+ }
+
+label{
+  font-size: 1.3em;
+  font-weight: 300px;
+  padding: 10px 10x 10px 0;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+input[type=text], input[type=email], input[type=number], select, textarea{
+  width: 100%;
+  padding: 12px 20px; 
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+#dropdown{
+  width: 50%;
+  box-sizing: border-box;
+  float: right;
+}
+
+#title {
+  text-transform: capitalize;
+  text-align: center;
+  color: hsl(0, 90%, 60%);;
+ 
+}
+
+h2{
+  background-color: hsl(120, 60%, 70%);
+  color: #fff;
+  padding: 5px 20px;
+  margin: 30px 0 25px 0;
+}
+
+#submit{
+  font-size: 18px;
+  font-weight: 300px;
+  width: 200px;
+  background-color: hsl(0, 70%, 60%);
+  color: #fff;
+  padding: 10px;
+  margin: 20px 0 ;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 600px){
+  #dropdown{
+    width: 100%;
+    display: inline-block;
+    
+  }
+  .course{
+ 
+    padding-bottom: 50px;
+  }
+  .main{
+    margin: 30px 10px;
+  }
+}
